@@ -1,10 +1,10 @@
-import { Plutonic.Github.IoPage } from './app.po';
+import { PlutonicIo.Github.IoPage } from './app.po';
 
-describe('plutonic.github.io App', () => {
-  let page: Plutonic.Github.IoPage;
+describe('plutonic-io.github.io App', () => {
+  let page: PlutonicIo.Github.IoPage;
 
   beforeEach(() => {
-    page = new Plutonic.Github.IoPage();
+    page = new PlutonicIo.Github.IoPage();
   });
 
   it('should display message saying app works', () => {
